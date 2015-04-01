@@ -41,9 +41,6 @@
     <Reference Include="Autofac">
       <HintPath>..\packages\Autofac.3.5.2\lib\net40\Autofac.dll</HintPath>
     </Reference>
-    <Reference Include="FluentValidation">
-      <HintPath>..\packages\FluentValidation.5.5.0.0\lib\Net40\FluentValidation.dll</HintPath>
-    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
@@ -120,9 +117,21 @@
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\DBP.Core.BL\DBP.Core.BL.csproj">
+      <Project>{e466ea2f-fd1b-4982-a9cd-26cb9006a5b7}</Project>
+      <Name>DBP.Core.BL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DBP.Core.DTO\DBP.Core.DTO.csproj">
+      <Project>{690e7752-ef08-4f2e-bb3e-d8f166d5ce2d}</Project>
+      <Name>DBP.Core.DTO</Name>
+    </ProjectReference>
     <ProjectReference Include="..\DBP.Infrastructure.Core\DBP.Infrastructure.Core.csproj">
       <Project>{A1FC0444-E711-46FB-9C25-CF3121E00479}</Project>
       <Name>DBP.Infrastructure.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DBP.UI.Framework\DBP.UI.Framework.csproj">
+      <Project>{8b4239b7-ae12-49f1-a2c2-8268f265a7e1}</Project>
+      <Name>DBP.UI.Framework</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

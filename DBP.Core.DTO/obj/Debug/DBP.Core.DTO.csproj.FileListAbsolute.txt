@@ -1,0 +1,5 @@
+E:\Work\2012\Web\DBPGroup\DBP.Core.DTO\bin\Debug\DBP.Core.DTO.dll
+E:\Work\2012\Web\DBPGroup\DBP.Core.DTO\bin\Debug\DBP.Core.DTO.pdb
+E:\Work\2012\Web\DBPGroup\DBP.Core.DTO\obj\Debug\DBP.Core.DTO.csprojResolveAssemblyReference.cache
+E:\Work\2012\Web\DBPGroup\DBP.Core.DTO\obj\Debug\DBP.Core.DTO.dll
+E:\Work\2012\Web\DBPGroup\DBP.Core.DTO\obj\Debug\DBP.Core.DTO.pdb

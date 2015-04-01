@@ -33,6 +33,9 @@
     <Reference Include="FluentValidation">
       <HintPath>..\packages\FluentValidation.5.5.0.0\lib\Net40\FluentValidation.dll</HintPath>
     </Reference>
+    <Reference Include="FluentValidation.Mvc">
+      <HintPath>..\packages\FluentValidation.MVC5.5.5.0.0\lib\Net45\FluentValidation.Mvc.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <Private>True</Private>
       <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
@@ -76,6 +79,23 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Validators\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DBP.Core.BO\DBP.Core.BO.csproj">
+      <Project>{e288ec14-8973-4416-9cc0-7b5376530d76}</Project>
+      <Name>DBP.Core.BO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DBP.Core.DTO\DBP.Core.DTO.csproj">
+      <Project>{690e7752-ef08-4f2e-bb3e-d8f166d5ce2d}</Project>
+      <Name>DBP.Core.DTO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DBP.Infrastructure.Core\DBP.Infrastructure.Core.csproj">
+      <Project>{a1fc0444-e711-46fb-9c25-cf3121e00479}</Project>
+      <Name>DBP.Infrastructure.Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

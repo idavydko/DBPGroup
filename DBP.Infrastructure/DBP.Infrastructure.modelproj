@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{df6c1eea-1b84-459e-8629-f08b2a012f03}</ProjectGuid>
+    <ArchitectureToolsVersion>2.0.0.0</ArchitectureToolsVersion>
+    <Name>DBP.Infrastructure</Name>
+    <RootNamespace>DBP.Infrastructure</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\ArchitectureTools\Microsoft.VisualStudio.TeamArchitect.ModelingProject.targets" Condition="'$(VSToolsPath)' != ''" />
+  <ItemGroup>
+    <Folder Include="ModelDefinition\" />
+    <Content Include="ModelDefinition\DBP.Infrastructure.uml">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Validate Include="DBP.layerdiagram">
+      <SubType>Content</SubType>
+    </Validate>
+    <Validate Include="DBP.layerdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>DBP.layerdiagram</DependentUpon>
+    </Validate>
+    <Validate Include="DBP.layerdiagram.suppressions">
+      <SubType>Content</SubType>
+      <DependentUpon>DBP.layerdiagram</DependentUpon>
+    </Validate>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DBP.Core.BL\DBP.Core.BL.csproj">
+      <Name>DBP.Core.BL</Name>
+      <Project>{e466ea2f-fd1b-4982-a9cd-26cb9006a5b7}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\DBP.Core.BO\DBP.Core.BO.csproj">
+      <Name>DBP.Core.BO</Name>
+      <Project>{e288ec14-8973-4416-9cc0-7b5376530d76}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\DBP.Core.DAL\DBP.Core.DAL.csproj">
+      <Name>DBP.Core.DAL</Name>
+      <Project>{66d538af-aef5-4654-b4fc-e68476de730a}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\DBP.Core.DTO\DBP.Core.DTO.csproj">
+      <Name>DBP.Core.DTO</Name>
+      <Project>{690e7752-ef08-4f2e-bb3e-d8f166d5ce2d}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\DBP.Infrastructure.Core\DBP.Infrastructure.Core.csproj">
+      <Name>DBP.Infrastructure.Core</Name>
+      <Project>{a1fc0444-e711-46fb-9c25-cf3121e00479}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\DBP.Infrastructure.UI\DBP.Infrastructure.UI.csproj">
+      <Name>DBP.Infrastructure.UI</Name>
+      <Project>{ef92566b-de5c-46eb-9171-64c6c94d0686}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\DBP.UI.Admin\DBP.UI.Admin.csproj">
+      <Name>DBP.UI.Admin</Name>
+      <Project>{dd2ed695-4db2-453f-bdc4-f938cc914561}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\DBP.UI.Framework\DBP.UI.Framework.csproj">
+      <Name>DBP.UI.Framework</Name>
+      <Project>{8b4239b7-ae12-49f1-a2c2-8268f265a7e1}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\DBP.UI.Web\DBP.UI.Web.csproj">
+      <Name>DBP.UI.Web</Name>
+      <Project>{60373e1f-8515-4ce9-b693-35c7c1cd5eb5}</Project>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

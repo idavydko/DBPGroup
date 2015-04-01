@@ -1,0 +1,17 @@
+E:\Work\2012\Web\DBPGroup\DBP.Infrastructure\bin\Debug\DBP.Core.BL.dll
+E:\Work\2012\Web\DBPGroup\DBP.Infrastructure\bin\Debug\DBP.Core.BO.dll
+E:\Work\2012\Web\DBPGroup\DBP.Infrastructure\bin\Debug\DBP.Core.DAL.dll
+E:\Work\2012\Web\DBPGroup\DBP.Infrastructure\bin\Debug\DBP.Core.DTO.dll
+E:\Work\2012\Web\DBPGroup\DBP.Infrastructure\bin\Debug\DBP.Infrastructure.Core.dll
+E:\Work\2012\Web\DBPGroup\DBP.Infrastructure\bin\Debug\DBP.Infrastructure.UI.dll
+E:\Work\2012\Web\DBPGroup\DBP.Infrastructure\bin\Debug\DBP.UI.Admin.dll
+E:\Work\2012\Web\DBPGroup\DBP.Infrastructure\bin\Debug\DBP.UI.Framework.dll
+E:\Work\2012\Web\DBPGroup\DBP.Infrastructure\bin\Debug\DBP.UI.Web.dll
+E:\Work\2012\Web\DBPGroup\DBP.Infrastructure\bin\Debug\Autofac.dll
+E:\Work\2012\Web\DBPGroup\DBP.Infrastructure\bin\Debug\DBP.Core.BL.pdb
+E:\Work\2012\Web\DBPGroup\DBP.Infrastructure\bin\Debug\DBP.Core.BO.pdb
+E:\Work\2012\Web\DBPGroup\DBP.Infrastructure\bin\Debug\DBP.Core.DTO.pdb
+E:\Work\2012\Web\DBPGroup\DBP.Infrastructure\bin\Debug\DBP.Infrastructure.Core.pdb
+E:\Work\2012\Web\DBPGroup\DBP.Infrastructure\bin\Debug\DBP.Infrastructure.UI.pdb
+E:\Work\2012\Web\DBPGroup\DBP.Infrastructure\bin\Debug\Autofac.xml
+E:\Work\2012\Web\DBPGroup\DBP.Infrastructure\obj\Debug\DBP.Infrastructure.modelprojResolveAssemblyReference.cache

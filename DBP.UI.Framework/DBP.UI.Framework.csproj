@@ -43,6 +43,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UrlHelperExtensions.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DBP.Infrastructure.Core\DBP.Infrastructure.Core.csproj">
+      <Project>{A1FC0444-E711-46FB-9C25-CF3121E00479}</Project>
+      <Name>DBP.Infrastructure.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

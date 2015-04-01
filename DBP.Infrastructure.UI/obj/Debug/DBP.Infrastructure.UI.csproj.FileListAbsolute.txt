@@ -1,0 +1,5 @@
+E:\Work\2012\Web\DBPGroup\DBP.Infrastructure.UI\bin\Debug\DBP.Infrastructure.UI.dll
+E:\Work\2012\Web\DBPGroup\DBP.Infrastructure.UI\bin\Debug\DBP.Infrastructure.UI.pdb
+E:\Work\2012\Web\DBPGroup\DBP.Infrastructure.UI\obj\Debug\DBP.Infrastructure.UI.csprojResolveAssemblyReference.cache
+E:\Work\2012\Web\DBPGroup\DBP.Infrastructure.UI\obj\Debug\DBP.Infrastructure.UI.dll
+E:\Work\2012\Web\DBPGroup\DBP.Infrastructure.UI\obj\Debug\DBP.Infrastructure.UI.pdb

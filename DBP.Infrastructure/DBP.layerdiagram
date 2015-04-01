@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="1405106d-a07a-4047-a69b-a3070fa503f1" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/LayerDesigner">
+  <layers>
+    <layer Id="d1abb553-c7a8-481a-86f8-c94a485f966e" name="UI">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="cc41b93d-7a7e-47d3-8a74-a77c3f58393b" direction="Forward">
+          <layerMoniker Id="b6f02bf7-3d1b-46e8-a43d-ef29b2fcd1bc" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="10714ab2-88f4-4dd8-9673-25eedbe39f97" direction="Forward">
+          <layerMoniker Id="6c1c622a-e5d8-4bfc-a517-1e120a1b97a8" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+      <references>
+        <reference Id="04d7e989-9952-4850-a527-e60ae56df723" name="UI">
+          <ArtifactNode Label="UI" Category="CodeSchema_Project" Id="(Assembly=../UI)">
+            <Category Ref="SolutionFolder" />
+          </ArtifactNode>
+          <ExpandedNode Id="(Assembly=DBP.UI.Web)" Label="DBP.UI.Web.dll" Category="CodeSchema_Assembly">
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+          <ExpandedNode Id="(Assembly=DBP.UI.Admin)" Label="DBP.UI.Admin.dll" Category="CodeSchema_Assembly">
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+          <ExpandedNode Id="(Assembly=DBP.UI.Framework)" Label="DBP.UI.Framework.dll" Category="CodeSchema_Assembly">
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="18f1ca32-c838-4d44-92bd-7c6a45cc787f" name="Core">
+      <childLayers>
+        <layer Id="6c1c622a-e5d8-4bfc-a517-1e120a1b97a8" name="DBP.Core.BL">
+          <dependencyToLayers>
+            <dependencyFromLayerToLayer Id="4820b681-131c-4ceb-8d6e-657552b73d4e" direction="Forward">
+              <layerMoniker Id="aa6f1b0b-d363-43b5-a065-0e6fc7fb3c83" />
+            </dependencyFromLayerToLayer>
+            <dependencyFromLayerToLayer Id="06ab9af4-0f1a-4bc5-8b2b-a17c55663bc6" direction="Forward">
+              <layerMoniker Id="b6f02bf7-3d1b-46e8-a43d-ef29b2fcd1bc" />
+            </dependencyFromLayerToLayer>
+          </dependencyToLayers>
+          <references>
+            <reference Id="61f25cab-e11d-4ea2-87a3-bf508ad6269e" name="DBP.Core.BL">
+              <ArtifactNode Label="DBP.Core.BL" Category="CodeSchema_Project" Id="(Assembly=../DBP.Core.BL/DBP.Core.BL.csproj)">
+                <Category Ref="File" />
+              </ArtifactNode>
+              <ExpandedNode Id="(Assembly=DBP.Core.BL)" Label="DBP.Core.BL.dll" Category="CodeSchema_Assembly">
+                <LinkCategory Ref="Produces" />
+                <LinkCategory Ref="Represents" />
+              </ExpandedNode>
+            </reference>
+          </references>
+        </layer>
+        <layer Id="da653600-4c8d-41ac-9aef-c64fb8d4f556" name="DBP.Core.DAL">
+          <dependencyToLayers>
+            <dependencyFromLayerToLayer Id="45f49c37-a515-4455-8c3e-5c58251233fa" direction="Forward">
+              <layerMoniker Id="aa6f1b0b-d363-43b5-a065-0e6fc7fb3c83" />
+            </dependencyFromLayerToLayer>
+          </dependencyToLayers>
+          <references>
+            <reference Id="5798ff12-2153-4380-bfd6-1264d3b84889" name="DBP.Core.DAL">
+              <ArtifactNode Label="DBP.Core.DAL" Category="CodeSchema_Project" Id="(Assembly=../DBP.Core.DAL/DBP.Core.DAL.csproj)">
+                <Category Ref="File" />
+              </ArtifactNode>
+              <ExpandedNode Id="(Assembly=DBP.Core.DAL)" Label="DBP.Core.DAL.dll" Category="CodeSchema_Assembly">
+                <LinkCategory Ref="Produces" />
+                <LinkCategory Ref="Represents" />
+              </ExpandedNode>
+            </reference>
+          </references>
+        </layer>
+        <layer Id="aa6f1b0b-d363-43b5-a065-0e6fc7fb3c83" name="DBP.Core.BO">
+          <references>
+            <reference Id="9ed57d16-092b-44d8-8ddb-78febadda1ce" name="DBP.Core.BO">
+              <ArtifactNode Label="DBP.Core.BO" Category="CodeSchema_Project" Id="(Assembly=../DBP.Core.BO/DBP.Core.BO.csproj)">
+                <Category Ref="File" />
+              </ArtifactNode>
+              <ExpandedNode Id="(Assembly=DBP.Core.BO)" Label="DBP.Core.BO.dll" Category="CodeSchema_Assembly">
+                <LinkCategory Ref="Produces" />
+                <LinkCategory Ref="Represents" />
+              </ExpandedNode>
+            </reference>
+          </references>
+        </layer>
+      </childLayers>
+      <references>
+        <reference Id="506cc2a9-6dfa-42d6-bc5c-e0199d4ab98a" name="Core">
+          <ArtifactNode Label="Core" Category="CodeSchema_Project" Id="(Assembly=../Core)">
+            <Category Ref="SolutionFolder" />
+          </ArtifactNode>
+          <ExpandedNode Id="(Assembly=DBP.Core.BO)" Label="DBP.Core.BO.dll" Category="CodeSchema_Assembly">
+            <Category Ref="FileSystem.Category.FileOfType.dll" />
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+          <ExpandedNode Id="(Assembly=DBP.Core.BL)" Label="DBP.Core.BL.dll" Category="CodeSchema_Assembly">
+            <Category Ref="FileSystem.Category.FileOfType.dll" />
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+          <ExpandedNode Id="(Assembly=DBP.Core.DAL)" Label="DBP.Core.DAL.dll" Category="CodeSchema_Assembly">
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="eca39586-034a-4c9a-a56b-70ae1677f77b" name="DTO">
+      <childLayers>
+        <layer Id="b6f02bf7-3d1b-46e8-a43d-ef29b2fcd1bc" name="DBP.Core.DTO">
+          <references>
+            <reference Id="1af0fb42-1452-4be6-a16d-c6537c67063c" name="DBP.Core.DTO">
+              <ArtifactNode Label="DBP.Core.DTO" Category="CodeSchema_Project" Id="(Assembly=../DBP.Core.DTO/DBP.Core.DTO.csproj)">
+                <Category Ref="File" />
+              </ArtifactNode>
+              <ExpandedNode Id="(Assembly=DBP.Core.DTO)" Label="DBP.Core.DTO.dll" Category="CodeSchema_Assembly">
+                <Category Ref="FileSystem.Category.FileOfType.dll" />
+                <LinkCategory Ref="Produces" />
+                <LinkCategory Ref="Represents" />
+              </ExpandedNode>
+            </reference>
+          </references>
+        </layer>
+      </childLayers>
+      <references>
+        <reference Id="427cbcf5-2ac2-48c2-8d00-bcd85791d248" name="DTO">
+          <ArtifactNode Label="DTO" Category="CodeSchema_Project" Id="(Assembly=../DTO)">
+            <Category Ref="SolutionFolder" />
+          </ArtifactNode>
+          <ExpandedNode Id="(Assembly=DBP.Core.DTO)" Label="DBP.Core.DTO.dll" Category="CodeSchema_Assembly">
+            <Category Ref="FileSystem.Category.FileOfType.dll" />
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="6228c931-b947-43cb-a7ec-8c58c873faf2" name="API&#xD;&#xA;(future feature)">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="d977a1ff-71a0-44a5-ade3-1c489bd0ccf9" direction="Forward">
+          <layerMoniker Id="998c8935-af60-454b-baa8-d5b2cec3fe3c" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="82971f53-5bf4-457e-b9db-35f65dfa3e60" direction="Forward">
+          <layerMoniker Id="b6f02bf7-3d1b-46e8-a43d-ef29b2fcd1bc" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+    </layer>
+    <layer Id="998c8935-af60-454b-baa8-d5b2cec3fe3c" name="Backend&#xD;&#xA;(future feature)">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="233d8200-96ef-4dbd-b2bc-883bbbd82886" direction="Forward">
+          <layerMoniker Id="6c1c622a-e5d8-4bfc-a517-1e120a1b97a8" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="b4f62877-b81b-41fd-9895-567c0d63934e" direction="Forward">
+          <layerMoniker Id="b6f02bf7-3d1b-46e8-a43d-ef29b2fcd1bc" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+    </layer>
+  </layers>
+</layerModel>

@@ -42,6 +42,16 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\UserRepository.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DBP.Core.BO\DBP.Core.BO.csproj">
+      <Project>{e288ec14-8973-4416-9cc0-7b5376530d76}</Project>
+      <Name>DBP.Core.BO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DBP.Infrastructure.Core\DBP.Infrastructure.Core.csproj">
+      <Project>{a1fc0444-e711-46fb-9c25-cf3121e00479}</Project>
+      <Name>DBP.Infrastructure.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

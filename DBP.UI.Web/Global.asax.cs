@@ -8,7 +8,7 @@ namespace DBP.UI.Web
     {
         protected void Application_Start()
         {
-            //
+            //initialize IoC
             IocConfig.InitializeContainer();
 
             //set dependency resolver

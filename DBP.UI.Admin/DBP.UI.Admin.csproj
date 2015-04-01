@@ -106,6 +106,20 @@
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DBP.Core.DTO\DBP.Core.DTO.csproj">
+      <Project>{690e7752-ef08-4f2e-bb3e-d8f166d5ce2d}</Project>
+      <Name>DBP.Core.DTO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DBP.Infrastructure.UI\DBP.Infrastructure.UI.csproj">
+      <Project>{ef92566b-de5c-46eb-9171-64c6c94d0686}</Project>
+      <Name>DBP.Infrastructure.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DBP.UI.Framework\DBP.UI.Framework.csproj">
+      <Project>{8b4239b7-ae12-49f1-a2c2-8268f265a7e1}</Project>
+      <Name>DBP.UI.Framework</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

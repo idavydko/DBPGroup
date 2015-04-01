@@ -11,7 +11,7 @@ namespace DBP.UI.Web.App_Start
         {
             var builder = new ContainerBuilder();
 
-            //registre modules
+            //register modules
             builder.RegisterModule(new BaseServiceModule());
             builder.RegisterModule(new BaseRepositoryModule());
             builder.RegisterModule(new BaseValidatorModule());
