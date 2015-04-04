@@ -1,5 +1,5 @@
-﻿
-using Autofac;
+﻿using Autofac;
+using DBP.Core.DAL.Pages;
 
 namespace DBP.Infrastructure.Core.IocRegistration
 {
@@ -7,7 +7,8 @@ namespace DBP.Infrastructure.Core.IocRegistration
     {
         protected override void Load(ContainerBuilder builder)
         {
-            //register repositories
+            // Register repositories
+            builder.RegisterType<PageRepository>().As<IPageRepository>().InstancePerRequest();
         }
     }
 }

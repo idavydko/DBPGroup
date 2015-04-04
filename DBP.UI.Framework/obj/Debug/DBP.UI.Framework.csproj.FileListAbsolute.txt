@@ -1,1 +1,17 @@
 E:\Work\2012\Web\DBPGroup\DBP.UI.Framework\obj\Debug\DBP.UI.Framework.csprojResolveAssemblyReference.cache
+E:\Work\2012\Web\DBPGroup\DBP.UI.Framework\bin\Debug\DBP.UI.Framework.dll
+E:\Work\2012\Web\DBPGroup\DBP.UI.Framework\bin\Debug\DBP.UI.Framework.pdb
+E:\Work\2012\Web\DBPGroup\DBP.UI.Framework\bin\Debug\DBP.Infrastructure.Core.dll
+E:\Work\2012\Web\DBPGroup\DBP.UI.Framework\bin\Debug\Autofac.dll
+E:\Work\2012\Web\DBPGroup\DBP.UI.Framework\bin\Debug\DBP.Infrastructure.Core.pdb
+E:\Work\2012\Web\DBPGroup\DBP.UI.Framework\bin\Debug\Autofac.xml
+E:\Work\2012\Web\DBPGroup\DBP.UI.Framework\obj\Debug\DBP.UI.Framework.dll
+E:\Work\2012\Web\DBPGroup\DBP.UI.Framework\obj\Debug\DBP.UI.Framework.pdb
+E:\Work\2012\Web\DBPGroup\DBP.UI.Framework\bin\Debug\DBP.Core.DAL.dll
+E:\Work\2012\Web\DBPGroup\DBP.UI.Framework\bin\Debug\EntityFramework.dll
+E:\Work\2012\Web\DBPGroup\DBP.UI.Framework\bin\Debug\DBP.Core.Domain.dll
+E:\Work\2012\Web\DBPGroup\DBP.UI.Framework\bin\Debug\DBP.Core.DAL.pdb
+E:\Work\2012\Web\DBPGroup\DBP.UI.Framework\bin\Debug\EntityFramework.xml
+E:\Work\2012\Web\DBPGroup\DBP.UI.Framework\bin\Debug\DBP.Core.Domain.pdb
+E:\Work\2012\Web\DBPGroup\DBP.UI.Framework\bin\Debug\DBP.Core.BL.dll
+E:\Work\2012\Web\DBPGroup\DBP.UI.Framework\bin\Debug\DBP.Core.BL.pdb

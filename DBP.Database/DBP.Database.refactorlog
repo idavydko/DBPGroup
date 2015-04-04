@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="b9aec1e9-8385-4822-b483-c431f68199fc" ChangeDateTime="04/01/2015 09:47:09">
+    <Property Name="ElementName" Value="[dbo].[Page].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Page]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="PageId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="fbd50593-397c-4c7b-bb2f-a281f825e2dc" ChangeDateTime="04/01/2015 09:54:30">
+    <Property Name="ElementName" Value="[dbo].[Page].[CreatedDate]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Page]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="DateCreated" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="6a895cd1-3b6a-49a4-bf62-d37ed9b2bfb8" ChangeDateTime="04/01/2015 09:57:02">
+    <Property Name="ElementName" Value="[dbo].[Page].[DateCreated]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Page]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CreatedOn" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="911e0ef7-6da7-406d-88af-0d074145e031" ChangeDateTime="04/01/2015 10:40:59">
+    <Property Name="ElementName" Value="[dbo].[Page].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Page]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="PageId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="5b011583-363e-4acc-89ce-b85f6ed695c6" ChangeDateTime="04/01/2015 10:41:02">
+    <Property Name="ElementName" Value="[dbo].[Page].[PageGuid]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Page]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Id" />
+  </Operation>
+</Operations>

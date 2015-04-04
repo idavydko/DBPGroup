@@ -1,0 +1,14 @@
+E:\Work\2012\Web\DBPGroup\DBP.DAL.Tests\bin\Debug\DBP.DAL.Tests.dll
+E:\Work\2012\Web\DBPGroup\DBP.DAL.Tests\bin\Debug\DBP.DAL.Tests.pdb
+E:\Work\2012\Web\DBPGroup\DBP.DAL.Tests\obj\Debug\DBP.DAL.Tests.dll
+E:\Work\2012\Web\DBPGroup\DBP.DAL.Tests\obj\Debug\DBP.DAL.Tests.pdb
+E:\Work\2012\Web\DBPGroup\DBP.DAL.Tests\bin\Debug\DBP.DAL.Tests.dll.config
+E:\Work\2012\Web\DBPGroup\DBP.DAL.Tests\bin\Debug\DBP.Core.DAL.dll
+E:\Work\2012\Web\DBPGroup\DBP.DAL.Tests\bin\Debug\EntityFramework.dll
+E:\Work\2012\Web\DBPGroup\DBP.DAL.Tests\bin\Debug\nunit.framework.dll
+E:\Work\2012\Web\DBPGroup\DBP.DAL.Tests\bin\Debug\DBP.Core.Domain.dll
+E:\Work\2012\Web\DBPGroup\DBP.DAL.Tests\bin\Debug\DBP.Core.DAL.pdb
+E:\Work\2012\Web\DBPGroup\DBP.DAL.Tests\bin\Debug\EntityFramework.xml
+E:\Work\2012\Web\DBPGroup\DBP.DAL.Tests\bin\Debug\nunit.framework.xml
+E:\Work\2012\Web\DBPGroup\DBP.DAL.Tests\bin\Debug\DBP.Core.Domain.pdb
+E:\Work\2012\Web\DBPGroup\DBP.DAL.Tests\obj\Debug\DBP.DAL.Tests.csprojResolveAssemblyReference.cache

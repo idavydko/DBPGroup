@@ -36,3 +36,11 @@ E:\Work\2012\Web\DBPGroup\DBP.Infrastructure.Core\bin\Debug\tr\FluentValidation.
 E:\Work\2012\Web\DBPGroup\DBP.Infrastructure.Core\obj\Debug\DBP.Infrastructure.Core.csprojResolveAssemblyReference.cache
 E:\Work\2012\Web\DBPGroup\DBP.Infrastructure.Core\obj\Debug\DBP.Infrastructure.Core.dll
 E:\Work\2012\Web\DBPGroup\DBP.Infrastructure.Core\obj\Debug\DBP.Infrastructure.Core.pdb
+E:\Work\2012\Web\DBPGroup\DBP.Infrastructure.Core\bin\Debug\DBP.Core.DAL.dll
+E:\Work\2012\Web\DBPGroup\DBP.Infrastructure.Core\bin\Debug\EntityFramework.dll
+E:\Work\2012\Web\DBPGroup\DBP.Infrastructure.Core\bin\Debug\DBP.Core.Domain.dll
+E:\Work\2012\Web\DBPGroup\DBP.Infrastructure.Core\bin\Debug\DBP.Core.DAL.pdb
+E:\Work\2012\Web\DBPGroup\DBP.Infrastructure.Core\bin\Debug\EntityFramework.xml
+E:\Work\2012\Web\DBPGroup\DBP.Infrastructure.Core\bin\Debug\DBP.Core.Domain.pdb
+E:\Work\2012\Web\DBPGroup\DBP.Infrastructure.Core\bin\Debug\DBP.Core.BL.dll
+E:\Work\2012\Web\DBPGroup\DBP.Infrastructure.Core\bin\Debug\DBP.Core.BL.pdb

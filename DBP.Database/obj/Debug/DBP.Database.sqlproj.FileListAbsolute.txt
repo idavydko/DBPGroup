@@ -1,0 +1,9 @@
+E:\Work\2012\Web\DBPGroup\DBP.Database\bin\Debug\DBP.Database.dacpac
+E:\Work\2012\Web\DBPGroup\DBP.Database\bin\Debug\DBP.Database.dll
+E:\Work\2012\Web\DBPGroup\DBP.Database\bin\Debug\DBP.Database.pdb
+E:\Work\2012\Web\DBPGroup\DBP.Database\obj\Debug\DBP.Database.dll
+E:\Work\2012\Web\DBPGroup\DBP.Database\obj\Debug\DBP.Database.pdb
+E:\Work\2012\Web\DBPGroup\DBP.Database\obj\Debug\Model.xml
+E:\Work\2012\Web\DBPGroup\DBP.Database\obj\Debug\refactor.xml
+E:\Work\2012\Web\DBPGroup\DBP.Database\obj\Debug\postdeploy.sql
+E:\Work\2012\Web\DBPGroup\DBP.Database\obj\Debug\predeploy.sql

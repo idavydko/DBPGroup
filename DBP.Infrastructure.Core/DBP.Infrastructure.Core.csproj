@@ -86,6 +86,16 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DBP.Core.BL\DBP.Core.BL.csproj">
+      <Project>{e466ea2f-fd1b-4982-a9cd-26cb9006a5b7}</Project>
+      <Name>DBP.Core.BL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DBP.Core.DAL\DBP.Core.DAL.csproj">
+      <Project>{66d538af-aef5-4654-b4fc-e68476de730a}</Project>
+      <Name>DBP.Core.DAL</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

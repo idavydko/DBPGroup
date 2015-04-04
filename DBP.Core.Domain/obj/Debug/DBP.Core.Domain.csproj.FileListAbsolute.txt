@@ -1,0 +1,7 @@
+E:\Work\2012\Web\DBPGroup\DBP.Core.Domain\bin\Debug\DBP.Core.Domain.dll
+E:\Work\2012\Web\DBPGroup\DBP.Core.Domain\bin\Debug\DBP.Core.Domain.pdb
+E:\Work\2012\Web\DBPGroup\DBP.Core.Domain\bin\Debug\EntityFramework.dll
+E:\Work\2012\Web\DBPGroup\DBP.Core.Domain\bin\Debug\EntityFramework.xml
+E:\Work\2012\Web\DBPGroup\DBP.Core.Domain\obj\Debug\DBP.Core.Domain.csprojResolveAssemblyReference.cache
+E:\Work\2012\Web\DBPGroup\DBP.Core.Domain\obj\Debug\DBP.Core.Domain.dll
+E:\Work\2012\Web\DBPGroup\DBP.Core.Domain\obj\Debug\DBP.Core.Domain.pdb

@@ -15,3 +15,7 @@ E:\Work\2012\Web\DBPGroup\DBP.Infrastructure\bin\Debug\DBP.Infrastructure.Core.p
 E:\Work\2012\Web\DBPGroup\DBP.Infrastructure\bin\Debug\DBP.Infrastructure.UI.pdb
 E:\Work\2012\Web\DBPGroup\DBP.Infrastructure\bin\Debug\Autofac.xml
 E:\Work\2012\Web\DBPGroup\DBP.Infrastructure\obj\Debug\DBP.Infrastructure.modelprojResolveAssemblyReference.cache
+E:\Work\2012\Web\DBPGroup\DBP.Infrastructure\bin\Debug\DBP.Core.DAL.pdb
+E:\Work\2012\Web\DBPGroup\DBP.Infrastructure\bin\Debug\DBP.UI.Admin.pdb
+E:\Work\2012\Web\DBPGroup\DBP.Infrastructure\bin\Debug\DBP.UI.Framework.pdb
+E:\Work\2012\Web\DBPGroup\DBP.Infrastructure\bin\Debug\DBP.UI.Web.pdb

@@ -1,8 +1,5 @@
 E:\Work\2012\Web\DBPGroup\DBP.Core.BL\bin\Debug\DBP.Core.BL.dll
 E:\Work\2012\Web\DBPGroup\DBP.Core.BL\bin\Debug\DBP.Core.BL.pdb
-E:\Work\2012\Web\DBPGroup\DBP.Core.BL\bin\Debug\DBP.Core.BO.dll
-E:\Work\2012\Web\DBPGroup\DBP.Core.BL\bin\Debug\DBP.Core.DTO.dll
-E:\Work\2012\Web\DBPGroup\DBP.Core.BL\bin\Debug\DBP.Infrastructure.Core.dll
 E:\Work\2012\Web\DBPGroup\DBP.Core.BL\bin\Debug\FluentValidation.dll
 E:\Work\2012\Web\DBPGroup\DBP.Core.BL\bin\Debug\FluentValidation.Mvc.dll
 E:\Work\2012\Web\DBPGroup\DBP.Core.BL\bin\Debug\Microsoft.Web.Infrastructure.dll
@@ -12,10 +9,6 @@ E:\Work\2012\Web\DBPGroup\DBP.Core.BL\bin\Debug\System.Web.Razor.dll
 E:\Work\2012\Web\DBPGroup\DBP.Core.BL\bin\Debug\System.Web.WebPages.Deployment.dll
 E:\Work\2012\Web\DBPGroup\DBP.Core.BL\bin\Debug\System.Web.WebPages.dll
 E:\Work\2012\Web\DBPGroup\DBP.Core.BL\bin\Debug\System.Web.WebPages.Razor.dll
-E:\Work\2012\Web\DBPGroup\DBP.Core.BL\bin\Debug\Autofac.dll
-E:\Work\2012\Web\DBPGroup\DBP.Core.BL\bin\Debug\DBP.Core.BO.pdb
-E:\Work\2012\Web\DBPGroup\DBP.Core.BL\bin\Debug\DBP.Core.DTO.pdb
-E:\Work\2012\Web\DBPGroup\DBP.Core.BL\bin\Debug\DBP.Infrastructure.Core.pdb
 E:\Work\2012\Web\DBPGroup\DBP.Core.BL\bin\Debug\FluentValidation.pdb
 E:\Work\2012\Web\DBPGroup\DBP.Core.BL\bin\Debug\FluentValidation.xml
 E:\Work\2012\Web\DBPGroup\DBP.Core.BL\bin\Debug\FluentValidation.Mvc.pdb
@@ -25,7 +18,6 @@ E:\Work\2012\Web\DBPGroup\DBP.Core.BL\bin\Debug\System.Web.Razor.xml
 E:\Work\2012\Web\DBPGroup\DBP.Core.BL\bin\Debug\System.Web.WebPages.xml
 E:\Work\2012\Web\DBPGroup\DBP.Core.BL\bin\Debug\System.Web.WebPages.Deployment.xml
 E:\Work\2012\Web\DBPGroup\DBP.Core.BL\bin\Debug\System.Web.WebPages.Razor.xml
-E:\Work\2012\Web\DBPGroup\DBP.Core.BL\bin\Debug\Autofac.xml
 E:\Work\2012\Web\DBPGroup\DBP.Core.BL\bin\Debug\da\FluentValidation.resources.dll
 E:\Work\2012\Web\DBPGroup\DBP.Core.BL\bin\Debug\de\FluentValidation.resources.dll
 E:\Work\2012\Web\DBPGroup\DBP.Core.BL\bin\Debug\es\FluentValidation.resources.dll
@@ -42,3 +34,9 @@ E:\Work\2012\Web\DBPGroup\DBP.Core.BL\bin\Debug\tr\FluentValidation.resources.dl
 E:\Work\2012\Web\DBPGroup\DBP.Core.BL\obj\Debug\DBP.Core.BL.csprojResolveAssemblyReference.cache
 E:\Work\2012\Web\DBPGroup\DBP.Core.BL\obj\Debug\DBP.Core.BL.dll
 E:\Work\2012\Web\DBPGroup\DBP.Core.BL\obj\Debug\DBP.Core.BL.pdb
+E:\Work\2012\Web\DBPGroup\DBP.Core.BL\bin\Debug\DBP.Core.DAL.dll
+E:\Work\2012\Web\DBPGroup\DBP.Core.BL\bin\Debug\EntityFramework.dll
+E:\Work\2012\Web\DBPGroup\DBP.Core.BL\bin\Debug\DBP.Core.Domain.dll
+E:\Work\2012\Web\DBPGroup\DBP.Core.BL\bin\Debug\DBP.Core.DAL.pdb
+E:\Work\2012\Web\DBPGroup\DBP.Core.BL\bin\Debug\EntityFramework.xml
+E:\Work\2012\Web\DBPGroup\DBP.Core.BL\bin\Debug\DBP.Core.Domain.pdb

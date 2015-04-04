@@ -59,4 +59,10 @@
     <Folder Include="Properties" />
     <Folder Include="Tables" />
   </ItemGroup>
+  <ItemGroup>
+    <Build Include="Tables\Page.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="DBP.Database.refactorlog" />
+  </ItemGroup>
 </Project>

@@ -1,5 +1,6 @@
 ﻿
 using Autofac;
+using DBP.Core.BL.Services.Page;
 
 namespace DBP.Infrastructure.Core.IocRegistration
 {
@@ -7,7 +8,8 @@ namespace DBP.Infrastructure.Core.IocRegistration
     {
         protected override void Load(ContainerBuilder builder)
         {
-            //register services
+            // Register services
+            builder.RegisterType<PageService>().As<IPageService>().InstancePerRequest();
         }
     }
 }

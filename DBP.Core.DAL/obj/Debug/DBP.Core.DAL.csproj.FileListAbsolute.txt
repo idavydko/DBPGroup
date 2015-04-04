@@ -1,1 +1,16 @@
 E:\Work\2012\Web\DBPGroup\DBP.Core.DAL\obj\Debug\DBP.Core.DAL.csprojResolveAssemblyReference.cache
+E:\Work\2012\Web\DBPGroup\DBP.Core.DAL\bin\Debug\DBP.Core.DAL.dll
+E:\Work\2012\Web\DBPGroup\DBP.Core.DAL\bin\Debug\DBP.Core.DAL.pdb
+E:\Work\2012\Web\DBPGroup\DBP.Core.DAL\obj\Debug\DBP.Core.DAL.dll
+E:\Work\2012\Web\DBPGroup\DBP.Core.DAL\obj\Debug\DBP.Core.DAL.pdb
+E:\Work\2012\Web\DBPGroup\DBP.Core.DAL\bin\Debug\DBP.Core.DAL.dll.config
+E:\Work\2012\Web\DBPGroup\DBP.Core.DAL\bin\Debug\DBP.Core.Domain.dll
+E:\Work\2012\Web\DBPGroup\DBP.Core.DAL\bin\Debug\EntityFramework.dll
+E:\Work\2012\Web\DBPGroup\DBP.Core.DAL\bin\Debug\EntityFramework.SqlServer.dll
+E:\Work\2012\Web\DBPGroup\DBP.Core.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\Work\2012\Web\DBPGroup\DBP.Core.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\Work\2012\Web\DBPGroup\DBP.Core.DAL\bin\Debug\DBP.Core.Domain.pdb
+E:\Work\2012\Web\DBPGroup\DBP.Core.DAL\bin\Debug\EntityFramework.xml
+E:\Work\2012\Web\DBPGroup\DBP.Core.DAL\bin\Debug\EntityFramework.SqlServer.xml
+E:\Work\2012\Web\DBPGroup\DBP.Core.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+E:\Work\2012\Web\DBPGroup\DBP.Core.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml

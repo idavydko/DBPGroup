@@ -1,5 +1,4 @@
 E:\Work\2012\Web\DBPGroup\DBP.Core.BO\bin\Debug\DBP.Core.BO.dll
 E:\Work\2012\Web\DBPGroup\DBP.Core.BO\bin\Debug\DBP.Core.BO.pdb
-E:\Work\2012\Web\DBPGroup\DBP.Core.BO\obj\Debug\DBP.Core.BO.csprojResolveAssemblyReference.cache
 E:\Work\2012\Web\DBPGroup\DBP.Core.BO\obj\Debug\DBP.Core.BO.dll
 E:\Work\2012\Web\DBPGroup\DBP.Core.BO\obj\Debug\DBP.Core.BO.pdb
